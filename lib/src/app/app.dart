@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:foodapp/src/presentation/splash/splash_view.dart';
 class MyApp extends StatelessWidget {
   MyApp._instance(); // named private constructor
   static final MyApp instance = MyApp._instance();
@@ -6,7 +7,8 @@ class MyApp extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return MaterialApp(
-      home: Text('Hello'),
+      debugShowCheckedModeBanner: false,
+      home: SplashView(),
     );
   }
 }
