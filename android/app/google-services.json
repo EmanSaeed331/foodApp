@@ -1,0 +1,47 @@
+{
+  "project_info": {
+    "project_number": "249840291000",
+    "project_id": "foodlab-b8995",
+    "storage_bucket": "foodlab-b8995.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:249840291000:android:d387960383154ccfa3784d",
+        "android_client_info": {
+          "package_name": "com.foodapp.example.foodapp"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "249840291000-ingumfpari3f9lcuctvpfecfuqkvsltb.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.foodapp.example.foodapp",
+            "certificate_hash": "08cc983c2e184038b057269f245e352b71174fbb"
+          }
+        },
+        {
+          "client_id": "249840291000-hik682k4lpvsggkhnam7ms6gktkeiuc6.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCL9v8R5IVOYvlTPO-1jMsDozbj_2ZqmVA"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "249840291000-hik682k4lpvsggkhnam7ms6gktkeiuc6.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
