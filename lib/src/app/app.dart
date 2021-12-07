@@ -1,18 +1,12 @@
 import 'package:flutter/material.dart';
 class MyApp extends StatelessWidget {
-  const MyApp({Key? key}) : super(key: key);
-
+  MyApp._instance(); // named private constructor
+  static final MyApp instance = MyApp._instance();
+  factory MyApp () => instance;
   @override
   Widget build(BuildContext context) {
-    return Scaffold(
-      appBar: AppBar(
-        title: Text('HEKKKKKKKKKKKKKKKKKKKKo'),
-      ),
-      body: Column(
-        children: [
-          Text('HEllo '),
-        ],
-      ),
+    return MaterialApp(
+      home: Text('Hello'),
     );
   }
 }
