@@ -1,8 +1,8 @@
 import 'package:curved_navigation_bar/curved_navigation_bar.dart';
 import 'package:flutter/material.dart';
 import 'package:foodapp/src/presentation/home/home_view.dart';
-import 'package:foodapp/src/presentation/home/image_capture_view.dart';
-import 'package:foodapp/src/presentation/home/profile_view.dart';
+import 'package:foodapp/src/presentation/Image_Capture/image_capture_view.dart';
+import 'package:foodapp/src/presentation/profile/profile_view.dart';
 import 'package:foodapp/src/presentation/resources/colors_manger.dart';
 class CurvedNavBar extends StatefulWidget {
 

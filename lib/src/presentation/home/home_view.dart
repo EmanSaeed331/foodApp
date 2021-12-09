@@ -7,7 +7,7 @@ class HomeView extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-      backgroundColor: Colors.grey.shade200,
+      backgroundColor: Colors.grey.shade100,
       body: ListView.separated(
           itemBuilder: (context,index) =>_itemBuilder(),
           separatorBuilder: (context , index) => SizedBox(height: 0),
