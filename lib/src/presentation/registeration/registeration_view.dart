@@ -213,28 +213,6 @@ class RegisterationView extends StatelessWidget {
               SizedBox(
                 height: 30,
               ),
-              Center(
-                child: Row(
-                  crossAxisAlignment: CrossAxisAlignment.center,
-                  mainAxisAlignment: MainAxisAlignment.center,
-                  children: [
-                    Text('Not a registerd user ? ',
-                      style: TextStyle(
-                          color: ColorsManger.whiteColor,
-                          fontSize: 16
-                      ),
-                    ),
-                    Text('Sign Up here ',
-                      style: TextStyle(
-                          color: ColorsManger.whiteColor,
-                          fontSize: 14,
-                          fontFamily: 'Montserrat-Black'
-                      ),
-                    ),
-
-                  ],
-                ),
-              ) ,
             ],
           ),
         ),
