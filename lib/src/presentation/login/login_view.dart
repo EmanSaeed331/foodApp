@@ -1,7 +1,9 @@
 import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
+import 'package:foodapp/src/presentation/registeration/registeration_view.dart';
 import 'package:foodapp/src/presentation/resources/colors_manger.dart';
 import 'package:foodapp/src/presentation/resources/font_manger.dart';
+import 'package:get/get.dart';
 class LoginView extends StatelessWidget {
   const LoginView({Key? key}) : super(key: key);
   @override
@@ -82,7 +84,7 @@ class LoginView extends StatelessWidget {
                           right: 12,
 
                         ),
-                        child: Icon(Icons.email , color:ColorsManger.primaryColor),
+                        child: Icon(Icons.lock , color:ColorsManger.primaryColor),
                       ),
                       labelStyle:TextStyle(
                         color:ColorsManger.primaryColor
@@ -135,11 +137,16 @@ class LoginView extends StatelessWidget {
                         fontSize: 16
                       ),
                     ),
-                    Text('Sign Up here ',
-                      style: TextStyle(
-                        color: ColorsManger.whiteColor,
-                        fontSize: 14,
-                        fontFamily: 'Montserrat-Black'
+                    GestureDetector(
+                      onTap: (){
+                        Get.to(RegisterationView());
+                      },
+                      child: Text('Sign Up here ',
+                        style: TextStyle(
+                          color: ColorsManger.whiteColor,
+                          fontSize: 14,
+                          fontFamily: 'Montserrat-Black'
+                        ),
                       ),
                     ),
 
