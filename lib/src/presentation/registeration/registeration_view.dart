@@ -1,5 +1,8 @@
 import 'package:flutter/material.dart';
+import 'package:foodapp/src/presentation/home/curved_nav_bar.dart';
+import 'package:foodapp/src/presentation/home/home_view.dart';
 import 'package:foodapp/src/presentation/resources/colors_manger.dart';
+import 'package:get/get.dart';
 class RegisterationView extends StatelessWidget {
   const RegisterationView({Key? key}) : super(key: key);
 
@@ -191,8 +194,12 @@ class RegisterationView extends StatelessWidget {
                 SizedBox(
                   height: 60,
                 ),
+                GestureDetector(
+                  onTap: (){
+                    Get.to(HomeView());
+                  },
 
-                Container(
+                child : Container(
                   width: 180,
                   decoration: BoxDecoration(
                     borderRadius: BorderRadius.circular(30),
@@ -200,6 +207,7 @@ class RegisterationView extends StatelessWidget {
                   ),
                   child: FlatButton(
                     onPressed: () {
+                      Get.to(CurvedNavBar(selectedIndex: 0));
                     },
                     child: Center(
                       child: Text('Sign Up ',
@@ -212,6 +220,7 @@ class RegisterationView extends StatelessWidget {
                     ),
                   ),
                 ),
+          ),
                 SizedBox(
                   height: 30,
                 ),
